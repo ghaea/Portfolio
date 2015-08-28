@@ -65,3 +65,8 @@
 	vertical-align: top;
 	margin-bottom: 1%;
 }
+
+.form {
+	backgound: url("images/Form-Validation-Small.png") no-repeat center;
+	background-size: cover;
+}
