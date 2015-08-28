@@ -1,0 +1,67 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page-container {
+	font-family: 'Muli', Helvetica, sans-serif;
+}
+
+.header-container {
+	width: 100%;
+	background: url("images/tulips.jpg") no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	color: rgb(250, 250, 250);
+	text-align: center;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	padding: 10px;
+}
+
+.link {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.name {
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	top: 65vh;
+	text-shadow: 1px 1px rgb(50, 50, 50);
+	border: solid 2px rgb(250, 250, 250);
+	padding: 30px;
+}
+
+.ghaea {
+	font-size: 70px;
+}
+
+.pronounciation {
+	font-size: 20;
+	font-style: italic;
+}
+
+.about-container {
+	height: 500px;
+}
+
+.projects-container {
+	height: 700px;
+	text-align: center;
+}
+
+.project {
+	width: 24%;
+	display: inline-block;
+	height: 150px;
+	background: pink;
+	vertical-align: top;
+	margin-bottom: 1%;
+}
