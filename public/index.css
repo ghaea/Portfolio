@@ -178,6 +178,7 @@ button {
 
 #ironyard {
 	color: black;
+	text-decoration: underline;
 }
 .github-img {
 	height: 50px;
