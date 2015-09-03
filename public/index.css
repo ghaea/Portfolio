@@ -141,6 +141,10 @@
 	bottom: 10px;
 }
 
+.hide {
+	display: none;
+}
+
 .button {
 	display: inline-block;
 	width: 40%;
