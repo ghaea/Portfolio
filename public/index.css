@@ -49,7 +49,8 @@
 }
 
 .about-container {
-	height: 500px;
+	padding: 10%;
+	text-align: center;
 }
 
 .projects-container {
@@ -63,10 +64,66 @@
 	height: 150px;
 	background: pink;
 	vertical-align: top;
-	margin-bottom: 1%;
+	margin-bottom: .5%;
+	height: 40%;
+	color: white;
+	position: relative;
 }
 
 .form {
 	background: url("images/form-thumbnail.png") no-repeat center;
 	background-size: cover;
+}
+
+.concentration {
+	background: url("images/concentration-thumbnail.png") no-repeat left;
+	background-size: cover;
+}
+
+.transitapp {
+	background: url("images/transitapp-thumbnail.png") no-repeat left;
+	background-size: cover;
+}
+
+.surf {
+	background: url("images/surf-thumbnail.png") no-repeat left;
+	background-size: cover;
+}
+
+.chat {
+	background: url("images/angular-chat-box-thumbnail.png") no-repeat left;
+	background-size: cover;
+}
+
+.tabs {
+	background: url("images/angular-tabs-thumbnail.png") no-repeat left;
+	background-size: cover;
+}
+
+.title {
+	width: 100%;
+	padding: 10px;
+	background: rgba(50, 50, 50, .8);
+}
+
+.links {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+
+.button {
+	display: inline-block;
+	width: 40%;
+	border: solid 1px black;
+	border-radius: 5px;
+	padding: 4%;
+	text-decoration: none;
+	color: black;
+	background: white;
+}
+
+.button:hover {
+	background: RGB(157, 19, 123);
+	color: white;
 }
