@@ -48,6 +48,16 @@
 	font-style: italic;
 }
 
+.section-header {
+	width: 100%;
+	padding: 2%;
+	font-size: 36px;
+	background: RGB(160, 196, 231);
+	color: white;
+	margin-bottom: 28px;
+	text-align: left;
+}
+
 .about-container {
 	padding: 10%;
 	text-align: center;
@@ -58,16 +68,30 @@
 	text-align: center;
 }
 
+.contact-container {
+	font-size: 26px;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-content {
+	padding: 10%;
+}
+
 .project {
 	width: 24%;
 	display: inline-block;
 	height: 150px;
-	background: pink;
 	vertical-align: top;
 	margin-bottom: .5%;
 	height: 40%;
 	color: white;
 	position: relative;
+}
+
+.propair {
+	background: url("images/propair-thumbnail.png") no-repeat left;
+	background-size: cover;
 }
 
 .form {
@@ -100,10 +124,15 @@
 	background-size: cover;
 }
 
+.cupcake {
+	background: url("images/sprinkleBG.png") no-repeat left;
+	background-size: cover;
+}
+
 .title {
 	width: 100%;
 	padding: 10px;
-	background: rgba(50, 50, 50, .8);
+	background: rgba(157, 19, 123, .8);
 }
 
 .links {
@@ -126,4 +155,32 @@
 .button:hover {
 	background: RGB(157, 19, 123);
 	color: white;
+}
+
+button {
+	font-size: 28px;
+	cursor: pointer;
+	background: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 5px;
+	height: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+.github-img {
+	height: 50px;
+	width: 50px;
+}
+
+.contact-info {
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 10px;
+}
+
+.email a {
+	color: black;
 }
