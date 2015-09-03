@@ -1,6 +1,7 @@
 
-$(document).on("ready", function() {
+$(document).on('ready', function() {
 	$(".project").hover(function() {
-		$(this).toggleClass('hide')
+		$(this).find(".links").toggleClass('hide')
+		$(this).find(".blurb").toggleClass('hide')
 	})
 })

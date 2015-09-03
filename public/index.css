@@ -141,6 +141,11 @@
 	bottom: 10px;
 }
 
+.blurb {
+	background: rgba(157, 19, 123, .8);
+	padding: 10px 5px;
+}
+
 .hide {
 	display: none;
 }
