@@ -199,3 +199,8 @@ button {
 	text-decoration: none;
 	color: black;
 }
+
+.footer-container {
+	text-align: center;
+	color: gray;
+}
